@@ -1,0 +1,8 @@
+- pipeline.id: otv-test-pipeline
+  path.config: "/usr/share/logstash/pipeline/otv-test.conf"
+- pipeline.id: otv-api-logs-pipeline
+  path.config: "/usr/share/logstash/pipeline/otv-api-logs.conf"
+- pipeline.id: otv-ott-logs-pipeline
+  path.config: "/usr/share/logstash/pipeline/otv-ott-logs.conf"
+# - pipeline.id: otv-jdbc-pipeline
+# path.config: "/usr/share/logstash/pipeline/otv-jdbc.pipeline"

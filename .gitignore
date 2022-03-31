@@ -1,0 +1,10 @@
+/.idea/
+*.keystore
+*.log
+*.lck
+*.lock
+logs/
+log/
+!weblog-sample*.log
+
+/filebeat-*/
