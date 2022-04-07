@@ -8,3 +8,4 @@ log/
 !weblog-sample*.log
 
 /filebeat-*/
+.logstash_jdbc_last_run

@@ -1,8 +1,12 @@
-- pipeline.id: otv-test-pipeline
-  path.config: "/usr/share/logstash/pipeline/otv-test.conf"
-- pipeline.id: otv-api-logs-pipeline
-  path.config: "/usr/share/logstash/pipeline/otv-api-logs.conf"
-- pipeline.id: otv-ott-logs-pipeline
-  path.config: "/usr/share/logstash/pipeline/otv-ott-logs.conf"
-# - pipeline.id: otv-jdbc-pipeline
-# path.config: "/usr/share/logstash/pipeline/otv-jdbc.pipeline"
+- pipeline.id: test-pipeline
+  path.config: "/usr/share/logstash/pipeline/test.conf"
+  pipeline.ecs_compatibility: disabled
+#- pipeline.id: otv-api-logs-pipeline
+#  path.config: "/usr/share/logstash/pipeline/otv-api-logs.conf"
+#  pipeline.ecs_compatibility: disabled
+#- pipeline.id: otv-ott-logs-pipeline
+#  path.config: "/usr/share/logstash/pipeline/otv-ott-logs.conf"
+#  pipeline.ecs_compatibility: disabled
+- pipeline.id: sample-products-jdbc-pipeline
+  path.config: "/usr/share/logstash/pipeline/sample-products-jdbc.conf"
+  pipeline.ecs_compatibility: disabled
